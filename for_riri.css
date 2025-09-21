@@ -1,0 +1,131 @@
+html,body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+    margin:0 auto;
+}
+html{
+    background-color: #F9F6F1;
+    font-size: 16px;
+}
+.menu_list{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+}
+.hotels,
+.packages{
+    margin-left:16px;
+}
+.sign_in{
+    background-color: rgb(120,152,232);
+    color:rgb(250,250,250);
+    width: 95px;
+    height: 40px;
+    font-size:15px;
+    border-radius:15%;
+    position:relative;
+    margin-right: 100px;
+    margin-top:1rem;
+    padding: 6px 12px;
+}
+.slogan{
+    font-size:52px;
+    color: transparent;    
+	background-clip: text;
+	background-image: linear-gradient(to bottom, rgb(77, 65, 184), rgb(13, 36, 125));
+    margin-left:20rem;
+    margin-top: 7rem;
+}
+#main-heading{
+    letter-spacing:2px;
+}
+.choice_table{
+    display: flex;
+    margin-left:120px;
+    margin-top: 20px;
+    font-size:21px;
+    padding:5px;
+       
+}
+#airport1{
+    background-color: rgb(120, 152, 232);
+    border-radius: 2px;
+}
+#airport2{
+    background-color: rgb(120, 152, 232);
+    border-radius: 2px;
+    margin-left:3px;
+}
+.choice_date{
+    background-color: rgb(120, 152, 232);
+    border-radius: 2px;
+    margin-left:3px;
+}
+#adult{
+    background-color: rgb(120, 152, 232);
+    border-radius: 2px;
+    margin-left:3px;
+}
+.card1,
+.card2,
+.card3{
+    overflow: hidden;
+    box-shadow: 0 4px 12px;
+    width: 320px;
+    background:#ded0f0;
+    border-radius: 10px;
+    position: static;
+}
+.places1{
+display:flex;
+}
+.card4{
+    overflow: hidden;
+    box-shadow: 0 4px 12px;
+    background:#ded0f0;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.card2,
+.card3{
+    margin-left: 10px;
+}
+.float-box{
+    width: 45%;
+    height: 100px;
+    background: #ded0f0;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(0, 11, 11);
+    font-weight: bold;
+    padding:20px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px;
+}
+.float-box.left{
+    float:left;
+    margin-right: 10px;
+}
+.float-box.right{
+    float:right;
+    margin-left: 10px;
+}
+header{
+    position: relative;
+}
+.help{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    background:rgb(120, 152, 232) ;
+    color:#fff;
+    padding: 6px 12px;
+    font-size: 24px;             
+    border-radius: 10px;     
+      
+}
+

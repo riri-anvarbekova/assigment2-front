@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="for_riri.css">
+        <link rel="icon" type="image/svg" href="Union.svg" >
+        <title>Riri</title>
+        <style>
+            p{
+                font-size: 30px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+           <div class="menu">
+             <ul class="menu_list">
+                <li class="menu_list_item">
+                    <a class="flights">Flights</a>
+                </li>
+                <li class="menu_list_item">
+                    <a class="hotels">Hotels</a>
+                </li>
+                <li class="menu_list_item">
+                    <a class="packages">Packages</a>
+                </li>
+                <button class="sign_in">Sign in</button>
+             </ul>
+           </div>
+           <h1 id="main-heading" class="slogan"><strong>It is more than <br />just a trip</strong></h1>
+           <div class="choice_table">
+              <select name="airport" id="airport1">
+                <option value="" disabled selected >&#128747From where?</option>
+                <option value="london">&#128747LHR</option>
+                <option value="paris">&#128747CDG</option>
+                <option value="new_york">&#128747JFK</option>
+                <option value="tokyo">&#128747NRT</option>
+                <option value="dubai">&#128747DXB</option>
+                <option value="moscow">&#128747SVO</option>
+                <option value="istanbul">&#128747IST</option>
+                <option value="singapore">&#128747SIN</option>
+                <option value="hong_kong">&#128747HKG</option>
+                <option value="los_angeles">&#128747LAX</option>
+              </select>
+              <select name="airport" id="airport2" >
+                <option value="" disabled selected>&#128748Where to?</option>
+                <option value="london">&#128748LHR</option>
+                <option value="paris">&#128748CDG</option>
+                <option value="new_york">&#128748JFK</option>
+                <option value="tokyo">&#128748NRT</option>
+                <option value="dubai">&#128748DXB</option>
+                <option value="moscow">&#128748SVO</option>
+                <option value="istanbul">&#128748IST</option>
+                <option value="singapore">&#128748SIN</option>
+                <option value="hong_kong">&#128748HKG</option>
+                <option value="los_angeles">&#128748LAX</option>
+              </select>
+              <form name="choice_date" class="choice_date">
+                <input type="datetime" placeholder="Depart date">
+              </form>
+              <select name="adult" id="adult" >
+                <option value="" disabled selected>How many adult?</option>
+                <option value="one">1 adult</option>
+                <option value="two">2 adult</option>
+                <option value="three">3 adult</option>
+                <option value="four">4 adult</option>
+                <option value="five">5 adult</option>
+              </select>
+           </div>
+           <button class="help">Help</button>
+        </header>
+        <br /><br />
+        <main>
+           <p id="info" style="color:rgb(101, 101, 182)">Find your next adventure with these flight deals</p>
+           <br /><br />
+           <div class="places">
+              <div class="places1">
+                <div class="card1">
+                    <img src="image.png" >
+                    The Bund, Shanghai <br />China’s most international city
+                </div>
+                <div class="card2">
+                    <img src="image2.png" >
+                    Sydney Opera House, Sydney <br />Take a stroll along the famous harbor
+                </div>
+                <div class="card3">
+                    <img src="image3.png" >
+                    Kōdaiji Temple, Kyoto <br />Step back in time in the Gion district
+                </div>
+              </div>
+              <div class="card4">
+                    <img src="image4.png" >
+                    Tsavo East National Park, Kenya <br />Named after the Tsavo River, and opened in April 1984, Tsavo East National Park is one of the oldest parks in Kenya. It is located in the semi-arid Taru Desert.
+                </div>
+           </div>
+           <div class="float-box left">Special Flight Deals</div>
+           <div class="float-box right">Hotel Discounts</div>
+           <div style="clear:both;"></div>
+        </main>
+        <footer></footer>
+    </body>
+</html>
